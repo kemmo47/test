@@ -1,0 +1,54 @@
+.header{
+    height: 100vh;
+    background: #c1c1c1;
+    padding: 5px;
+}
+
+.list-group-item {
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.list-group-item:hover{
+    background: #e9e9e9;
+}
+
+.all_todos tr{
+    vertical-align: baseline;
+}
+
+.todo_active{
+    text-decoration: line-through;
+    color: green;
+}
+
+.progress_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg_all_todos{
+    background:#81a8fd8c !important;
+}
+
+.bg_all_done_todos{
+    background: #a3ff4f8c !important;
+}
+
+.bg_all_slacking_todos{
+    background:#c1c1c18c !important;
+}
+
+.group_btn_todos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.counter{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.newClass{
+    background-color:red
+}
